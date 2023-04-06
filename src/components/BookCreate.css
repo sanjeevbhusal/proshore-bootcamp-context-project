@@ -1,0 +1,30 @@
+.book-create-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-create-container form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.book-create-container form input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+}
+
+.book-create-container form button {
+    margin: 20px auto 0;
+    padding: 6px 20px;
+    border: 1px solid grey;
+    border-radius: 5px; 
+    cursor: pointer;    
+    background-color: rgb(111, 126, 240);
+    font-size: 18px;
+}
+

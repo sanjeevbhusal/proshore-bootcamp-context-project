@@ -1,0 +1,25 @@
+.book-show {
+    /* flex: 0 0 345px; */
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px 20px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.button-edit, .button-delete {
+    width: 20px;
+    cursor: pointer;
+}
+
+.book-image {
+    width: 100%;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 20px;
+}

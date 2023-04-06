@@ -1,0 +1,26 @@
+# Send a Get Request to get all the books
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+
+# Send a Post Request to post a book
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "my first book",
+    "page": 50
+}
+
+
+###
+
+# Send a PUT Request to update a book
+PUT http://localhost:3001/books/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "my first book updated"
+}
